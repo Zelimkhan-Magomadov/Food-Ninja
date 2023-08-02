@@ -10,17 +10,21 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.view.WindowCompat
+import zelimkhan.magomadov.foodninja.ui.theme.AppTheme
 import zelimkhan.magomadov.foodninja.ui.theme.FoodNinjaTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        WindowCompat.setDecorFitsSystemWindows(window, false)
+
         setContent {
             FoodNinjaTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    color = AppTheme.colors.background
                 ) {
                     Greeting("Android")
                 }
