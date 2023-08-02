@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Food Ninja</string>
+    <string name="logo_subtitle">Delivery favorite food</string>
+    <string name="onboarding_button">Next</string>
+    <string name="onboarding_title_1">Find your comfort food here</string>
+    <string name="onboarding_subtitle_1">Here you can find a chef or dish for every taste and color. Enjoy!</string>
+    <string name="onboarding_title_2">Food Ninja is where your comfort food lives</string>
+    <string name="onboarding_subtitle_2">Enjoy a fast and smooth food delivery at your doorstep</string>
+    <string name="login_title">Login to your account</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="length">Length: %1$s</string>
+    <string name="register_title">Register</string>
 </resources>
